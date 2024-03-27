@@ -157,7 +157,7 @@ export default function Home() {
           <div className="mt-2">
             <h3 className="font-semibold mt-4">github</h3>
             <p>
-              URL: <a href="https://eventi.jp" className="ml-4 text-slate-500 hover:text-slate-700">https://github.com/KaimuSeino</a>
+              URL: <a href="https://github.com/KaimuSeino" className="ml-4 text-slate-500 hover:text-slate-700">https://github.com/KaimuSeino</a>
             </p>
           </div>
         </div>
