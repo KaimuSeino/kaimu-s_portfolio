@@ -7,7 +7,7 @@ export default function Home() {
     <main className="m-4">
       <div className="py-8 px-4 flex flex-col justify-center items-center">
         <p className="text-3xl font-semibold">
-          Kaimu's Portfolio
+          Kaimu&apos;s Portfolio
         </p>
         <div>
           <Avatar className="h-60 w-60 mt-2">
@@ -21,8 +21,8 @@ export default function Home() {
           <h2 className="font-semibold text-2xl">About</h2>
           <Separator />
           <p className="mt-2 text-pretty">
-            I'm Kaimu Seino.<br />
-            Third year bachelor's student at Akita University.<br />
+            I&apos;m Kaimu Seino.<br />
+            Third year bachelor&apos;s student at Akita University.<br />
             Department of Mathematical, Electrical and Electronic Information Engineering
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
         <div>
           <h2 className="font-semibold text-2xl">Experience</h2>
           <Separator />
-          <div className="mt-2 text-pretty">
+          <div className="mt-2">
             <div className="mb-4">
               <label htmlFor="">September. 2022 ~ October. 2022</label>
               <p className="font-semibold">
