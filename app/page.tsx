@@ -138,7 +138,7 @@ export default function Home() {
             <div className="mb-4">
               <label htmlFor="">December. 2023 ~ February. 2024</label>
               <p className="font-semibold">
-                Web×Iot Makers Challenge
+                Web&times;Iot Makers Challenge
               </p>
             </div>
           </div>
