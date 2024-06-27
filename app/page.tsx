@@ -15,7 +15,7 @@ export default function Home() {
           </Avatar>
         </div>
       </div>
-      <div className="px-4 flex flex-col gap-4">
+      <div className="px-4 flex flex-col md:items-center md:justify-center gap-4">
         {/* about */}
         <div>
           <h2 className="font-semibold text-2xl">About</h2>
@@ -23,7 +23,8 @@ export default function Home() {
           <p className="mt-2 text-pretty">
             I&apos;m Kaimu Seino.<br />
             Forth year bachelor&apos;s student at Akita University.<br />
-            Department of Mathematical, Electrical and Electronic Information Engineering
+            Department of Mathematical, <br />
+            Electrical and Electronic Information Engineering 
           </p>
         </div>
         <div>
