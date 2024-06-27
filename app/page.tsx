@@ -22,7 +22,7 @@ export default function Home() {
           <Separator />
           <p className="mt-2 text-pretty">
             I&apos;m Kaimu Seino.<br />
-            Third year bachelor&apos;s student at Akita University.<br />
+            Forth year bachelor&apos;s student at Akita University.<br />
             Department of Mathematical, Electrical and Electronic Information Engineering
           </p>
         </div>
@@ -70,6 +70,14 @@ export default function Home() {
               height={80}
             />
           </div>
+          <div className="flex gap-10 w-full mt-10">
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg"
+              alt=""
+              width={80}
+              height={80}
+            />
+          </div>
           <h3 className="mt-8 font-semibold">Framework</h3>
           <div className="flex gap-10 w-full mt-6">
             <Image
@@ -91,6 +99,26 @@ export default function Home() {
               height={80}
             />
           </div>
+          <div className="flex gap-10 w-full mt-6">
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+              alt=""
+              width={80}
+              height={80}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+              alt=""
+              width={80}
+              height={80}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cakephp/cakephp-plain-wordmark.svg"
+              alt=""
+              width={80}
+              height={80}
+            />
+          </div>
           <h3 className="mt-8 font-semibold">Others</h3>
           <div className="flex gap-10 w-full mt-6">
             <Image
@@ -101,6 +129,12 @@ export default function Home() {
             />
             <Image
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt=""
+              width={80}
+              height={80}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
               alt=""
               width={80}
               height={80}
@@ -139,6 +173,12 @@ export default function Home() {
               <label htmlFor="">December. 2023 ~ February. 2024</label>
               <p className="font-semibold">
                 Web&times;Iot Makers Challenge
+              </p>
+            </div>
+            <div className="mb-4">
+              <label htmlFor="">June 2024 ~ Ongoing</label>
+              <p className="font-semibold">
+              Donuts,lnc intern in Akita lab
               </p>
             </div>
           </div>
