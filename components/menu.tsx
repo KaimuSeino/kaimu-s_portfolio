@@ -18,10 +18,10 @@ const Menu = () => {
 
     return ( 
         <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-            <DialogTrigger className="border p-2 rounded-md bg-white md:hidden">メニュー</DialogTrigger>
+            <DialogTrigger className="border p-2 rounded-md bg-white md:hidden">Menu</DialogTrigger>
             <DialogContent>
                 <DialogHeader>
-                <DialogDescription className="flex flex-col">
+                <DialogDescription className="flex flex-col gap-y-10">
                     <Link href="#about" passHref onClick={handleClose}>
                         About
                     </Link>
