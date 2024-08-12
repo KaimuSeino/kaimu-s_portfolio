@@ -8,14 +8,8 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kaimu_portfolio",
-  description: "kaimu seino",
-  icons: [
-    {
-      url: "/kaimu_icon.JPG",
-      href: "/kaimu_icon.JPG"
-    }
-  ]
+  title: "清野海夢のポートフォリオ",
+  description: "自己分析も兼ねてポートフォリオを作成しています。日々デザインや内容を更新しているので是非ご覧ください。",
 };
 
 export default function RootLayout({
@@ -25,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/kaimu_icon.JPG" sizes="any" />
       <body className={cn(inter)}>
         <Header />
         {children}
