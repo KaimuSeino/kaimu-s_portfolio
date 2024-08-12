@@ -5,7 +5,7 @@ const Experience = () => {
         <div id="experience" className="w-full">
             <h2 className="font-semibold text-2xl">Experience</h2>
             <Separator />
-            <div className="m-4 flex flex-col md:flex-row items-center justify-around">
+            <div className="mt-4 flex flex-col md:flex-row items-center justify-around">
               <div className="w-full md:w-[300px]">
                 <label className="text-xl">2022年9月 ~ 2022年10月</label>
                 <p className="font-semibold text-2xl">
@@ -18,7 +18,7 @@ const Experience = () => {
                 現地学生との交流・大学施設および研究室の見学などを行いました。
               </div>
             </div>
-            <div className="m-4 flex flex-col md:flex-row items-center justify-around">
+            <div className="flex flex-col md:flex-row items-center justify-around">
               <div className="w-full md:w-[300px]">
                 <label className="text-xl">2023年2月 ~ 2023年3月</label>
                 <p className="font-semibold text-2xl">
@@ -32,7 +32,7 @@ const Experience = () => {
                 行いました。
               </div>
             </div>
-            <div className="m-4 flex flex-col md:flex-row items-center justify-around">
+            <div className="flex flex-col md:flex-row items-center justify-around">
               <div className="w-full md:w-[300px]">
                 <label className="text-xl">2023年10月 ~ 2024年2月</label>
                 <p className="font-semibold text-2xl">
@@ -45,7 +45,7 @@ const Experience = () => {
                 チームで新規事業を立案し、webアプリケーションの開発を行い、想定ユーザーにデモを使用してもらいフィードバックをいただき、成果報告会を行うことができました。<br />
               </div>
             </div>
-            <div className="m-4 flex flex-col md:flex-row items-center justify-around">
+            <div className="flex flex-col md:flex-row items-center justify-around">
               <div className="w-full md:w-[300px]">
                 <label className="text-xl">2024年6月 ~ 現在</label>
                 <p className="font-semibold text-2xl">
